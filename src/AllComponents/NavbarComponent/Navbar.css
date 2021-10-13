@@ -1,6 +1,6 @@
 .navbar {
     background-color: rgb(112, 123, 124);
-    height: 5rem;
+    height: 80px;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -81,6 +81,7 @@ span {
 }
 
 .navbaritems {
+    justify-content: center;
     outline: none;
     font-size: 1.5em;
     display: flex;
@@ -98,7 +99,7 @@ span {
 .chip {
     display: inline-block;
     padding: 0 25px;
-    height: 3.5rem;
+    height: 50px;
     font-size: 16px;
     line-height: 50px;
     border-radius: 25px;
@@ -109,11 +110,10 @@ span {
 .chip img {
     float: right;
     margin: 0 -25px 0 10px;
-    height: 3.5rem;
-    width: 3.5rem;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
 }
-
 @media screen and (max-width: 600px) {
     .chip {
         display: inline-block;
