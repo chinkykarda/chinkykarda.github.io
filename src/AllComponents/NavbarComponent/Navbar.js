@@ -25,7 +25,7 @@ function Navbar() {
           <a href="https://www.linkedin.com/in/chinkykarda/" className="handle"><span><FaIcons.FaLinkedin /></span></a>
           <a href="https://github.com/chinkykarda" className="handle"><span><AiIcons.AiFillGithub /></span></a>
           <a href="https://twitter.com/chinkykarda" className="handle"><span><FaIcons.FaTwitter /></span></a>
-          <a href="https://twitter.com/chinkykarda" className="handle"><span><FaIcons.FaGlobe /> </span></a>
+          <a href="https://chinkykarda.github.io/" className="handle"><span><FaIcons.FaGlobe /> </span></a>
         </div>
       </div>
       <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
