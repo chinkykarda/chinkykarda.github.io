@@ -4,7 +4,7 @@
     font-family: "Times New Roman", Times, serif;
     color: #2C3E50;
     font-size: 1rem;
-    padding: 100px;
+    padding: 2rem;
 }
 
 .tagline {
@@ -34,5 +34,4 @@
 .about {
     text-align: justify;
     /* For Edge */
-    margin: auto;
 }
