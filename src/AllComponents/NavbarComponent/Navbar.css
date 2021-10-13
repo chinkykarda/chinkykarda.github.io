@@ -81,7 +81,6 @@ span {
 }
 
 .navbaritems {
-    justify-content: center;
     outline: none;
     font-size: 1.5em;
     display: flex;
