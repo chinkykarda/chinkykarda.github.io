@@ -19,6 +19,7 @@ function Skills() {
           <li> <span><DiIcons.DiJavascript1/></span> JavaScript</li>
         </ul>
       </div>
+      <br/>
       <div className="frameworks">
       <h2>Markup Languages and Frameworks</h2>
       <ul>
@@ -30,6 +31,7 @@ function Skills() {
           
         </ul>
       </div>
+      <br/>
       <div className="libraries">
       <h2>Industry Skills</h2>
       <ul>
