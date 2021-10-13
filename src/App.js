@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Navbar from './AllComponents/NavbarComponent/Navbar';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './AllComponents/Components/Home';
 import Skills from './AllComponents/Components/Skills';
 import Education from './AllComponents/Components/Education';
@@ -12,7 +12,7 @@ import Publications from './AllComponents/Components/Publications';
 function App() {
   return (
     <>
-    <Router>
+      <Router>
         <Navbar />
         <Switch>
           <Route path='/' exact component={Home} />
@@ -23,7 +23,7 @@ function App() {
           <Route path='/publications' exact component={Publications} />
         </Switch>
       </Router>
-      </>
+    </>
   );
 }
 
