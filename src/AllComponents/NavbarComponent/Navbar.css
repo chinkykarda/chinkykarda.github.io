@@ -133,6 +133,13 @@ span {
         width: 35px;
         border-radius: 50%;
     }
+    .navbaritems {
+        justify-content: center;
+        outline: none;
+        font-size: 1rem;
+        margin: auto;
+    }
+    
     
 }
 
