@@ -1,0 +1,38 @@
+.home {
+    overflow: hidden;
+    width: auto;
+    font-family: "Times New Roman", Times, serif;
+    color: #2C3E50;
+    font-size: 1rem;
+    padding: 100px;
+}
+
+.tagline {
+    color: #85929E;
+}
+
+.iiitnr {
+    color: #515A5A;
+    text-decoration: none;
+}
+
+.iiitnr:hover {
+    color: #2C3E50;
+    text-decoration: none;
+}
+
+.chinkyimage {
+    max-width: 20%;
+    max-height: 20%;
+    border: 2px solid #fff;
+    box-shadow: 10px 10px 5px #ccc;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    -khtml-box-shadow: 10px 10px 5px #ccc;
+}
+
+.about {
+    text-align: justify;
+    /* For Edge */
+    margin: auto;
+}

@@ -1,0 +1,30 @@
+.skills ul {
+    list-style-type: none;
+    color: #515A5A;
+    font-style: italic;
+    line-height: 2rem;
+    font-size: 1.5rem;
+}
+
+.skills,
+.experience,
+.projects,
+.publications,
+.education {
+    color: #2C3E50;
+    padding: 10px 80px 10px 80px;
+    z-index: 1;
+}
+
+.morganstanley {
+    color: #216CA6;
+    font-family: sans-serif;
+}
+
+.experience h4 {
+    color: #2C3E50;
+}
+
+.experience p {
+    color: #515A5A;
+}
